@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,14 @@ using System.Threading.Tasks;
 
 namespace Calculadora
 {
-    class Calculator
+    class Calculator:ICalculator
     {
-        
+        Add AddOperation;
+
+        public Calculator()
+        {
+            AddOperation = new Add();
+        }
         public void Start()
         {
             bool displayMenu = true;
@@ -37,8 +43,7 @@ namespace Calculadora
         {
             if (OperationType == "1")
             {
-                Add funct = new Add();
-                funct.add();
+                AddOperation.add();
 
                 return true;
             }

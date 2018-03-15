@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora
 {
-    class Numbers
+    class Numbers:INumbers
     {
         public List<int> GetNumbers()
         {
