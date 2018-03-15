@@ -1,7 +1,0 @@
-c:\users\research\source\repos\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
-c:\users\research\source\repos\Calculadora\Calculadora\bin\Debug\Calculadora.exe
-c:\users\research\source\repos\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
-c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
-c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
-c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
-c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
