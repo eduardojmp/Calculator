@@ -5,3 +5,10 @@ c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csp
 c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 c:\users\research\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.pdb
