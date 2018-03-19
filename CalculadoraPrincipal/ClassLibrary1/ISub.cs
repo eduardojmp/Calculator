@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface ISub
     {
-        void sub();
+        void sub(List<int> retorno);
     }
 }

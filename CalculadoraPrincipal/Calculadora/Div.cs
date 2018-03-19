@@ -9,14 +9,8 @@ namespace Calculadora
 {
     class Div:IDiv
     {
-        Numbers numeros;
-        public Div()
+        public void div(List<int> retorno)
         {
-            numeros = new Numbers();
-        }
-        public void div()
-        {
-            var retorno = numeros.GetNumbers();
 
             int result = retorno[0];
             retorno.Remove(retorno[0]);

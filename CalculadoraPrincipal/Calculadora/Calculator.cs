@@ -13,6 +13,7 @@ namespace Calculadora
         Sub SubOperation;
         Mult MultOperation;
         Div DivOperation;
+        Numbers numeros;
 
         public Calculator()
         {
@@ -20,6 +21,7 @@ namespace Calculadora
             SubOperation = new Sub();
             MultOperation = new Mult();
             DivOperation = new Div();
+            numeros = new Numbers();
         }
         public void Start()
         {
@@ -47,27 +49,32 @@ namespace Calculadora
 
         private bool ProcessOperation(string OperationType)
         {
+
             if (OperationType == "1")
             {
-                AddOperation.add();
+                List<int> retorno = numeros.GetNumbers();
+                AddOperation.add(retorno);
 
                 return true;
             }
             else if (OperationType == "2")
             {
-                SubOperation.sub();
+                List<int> retorno = numeros.GetNumbers();
+                SubOperation.sub(retorno);
 
                 return true;
             }
             else if (OperationType == "3")
             {
-                MultOperation.mult();
+                List<int> retorno = numeros.GetNumbers();
+                MultOperation.mult(retorno);
 
                 return true;
             }
             else if (OperationType == "4")
             {
-                DivOperation.div();
+                List<int> retorno = numeros.GetNumbers();
+                DivOperation.div(retorno);
 
                 return true;
             }

@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface IDiv
     {
-        void div();
+        void div(List<int> retorno);
     }
 }

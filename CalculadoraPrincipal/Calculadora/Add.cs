@@ -9,14 +9,8 @@ namespace Calculadora
 {
     class Add:IAdd
     {
-        Numbers numeros;
-        public Add()
+        public void add(List<int> retorno)
         {
-            numeros = new Numbers();
-        }
-        public void add()
-        {
-            var retorno = numeros.GetNumbers();
 
             int result = 0;
 

@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface IMult
     {
-        void mult();
+        void mult(List<int> retorno);
     }
 }

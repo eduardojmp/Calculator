@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface IAdd
     {
-        void add();
+        void add(List<int> retorno);
     }
 }

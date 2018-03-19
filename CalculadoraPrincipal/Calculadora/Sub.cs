@@ -9,15 +9,8 @@ namespace Calculadora
 {
     class Sub:ISub
     {
-        Numbers numeros;
-        public Sub()
+        public void sub(List<int> retorno)
         {
-            numeros = new Numbers();
-        }
-        public void sub()
-        {
-            var retorno = numeros.GetNumbers();
-
             int result = retorno[0];
             retorno.Remove(retorno[0]);
 
