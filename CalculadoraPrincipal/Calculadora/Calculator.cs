@@ -10,10 +10,16 @@ namespace Calculadora
     class Calculator:ICalculator
     {
         Add AddOperation;
+        Sub SubOperation;
+        Mult MultOperation;
+        Div DivOperation;
 
         public Calculator()
         {
             AddOperation = new Add();
+            SubOperation = new Sub();
+            MultOperation = new Mult();
+            DivOperation = new Div();
         }
         public void Start()
         {
@@ -49,22 +55,19 @@ namespace Calculadora
             }
             else if (OperationType == "2")
             {
-                Sub funct = new Sub();
-                funct.sub();
+                SubOperation.sub();
 
                 return true;
             }
             else if (OperationType == "3")
             {
-                Mult funct = new Mult();
-                funct.mult();
+                MultOperation.mult();
 
                 return true;
             }
             else if (OperationType == "4")
             {
-                Div funct = new Div();
-                funct.div();
+                DivOperation.div();
 
                 return true;
             }

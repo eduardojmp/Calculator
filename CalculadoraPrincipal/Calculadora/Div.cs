@@ -9,9 +9,13 @@ namespace Calculadora
 {
     class Div:IDiv
     {
+        Numbers numeros;
+        public Div()
+        {
+            numeros = new Numbers();
+        }
         public void div()
         {
-            Numbers numeros = new Numbers();
             var retorno = numeros.GetNumbers();
 
             int result = retorno[0];

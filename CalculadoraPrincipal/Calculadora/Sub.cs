@@ -9,9 +9,13 @@ namespace Calculadora
 {
     class Sub:ISub
     {
+        Numbers numeros;
+        public Sub()
+        {
+            numeros = new Numbers();
+        }
         public void sub()
         {
-            Numbers numeros = new Numbers();
             var retorno = numeros.GetNumbers();
 
             int result = retorno[0];

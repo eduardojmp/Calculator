@@ -12,3 +12,6 @@ C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj
 C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\ClassLibrary1.dll
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\ClassLibrary1.pdb
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.csproj.CopyComplete

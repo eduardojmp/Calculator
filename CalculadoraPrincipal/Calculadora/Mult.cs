@@ -9,9 +9,13 @@ namespace Calculadora
 {
     class Mult:IMult
     {
+        Numbers numeros;
+        public Mult()
+        {
+            numeros = new Numbers();
+        }
         public void mult()
         {
-            Numbers numeros = new Numbers();
             var retorno = numeros.GetNumbers();
 
             int result = 1;

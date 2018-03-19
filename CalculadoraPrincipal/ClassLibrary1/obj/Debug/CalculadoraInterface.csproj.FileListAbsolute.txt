@@ -1,0 +1,6 @@
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\ClassLibrary1\obj\Debug\CalculadoraInterface.csprojResolveAssemblyReference.cache
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\ClassLibrary1\obj\Debug\CalculadoraInterface.csproj.CoreCompileInputs.cache
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
