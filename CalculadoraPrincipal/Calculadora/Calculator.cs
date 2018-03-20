@@ -42,8 +42,13 @@ namespace Calculadora
 
             if (OperationType <= _operations.Count)
             {
-                List<int> retorno = numeros.GetNumbers();
-                _operations.ElementAt(OperationType - 1).doOperation(retorno);
+                List<int> OpreationNumbers = numeros.GetNumbers();
+
+                int final_result = _operations.ElementAt(OperationType - 1).doOperation(OpreationNumbers);
+
+                Console.WriteLine(final_result);
+                Console.WriteLine("Press enter to conitnue.");
+                Console.ReadLine();
             }
             else if (OperationType == _operations.Count + 1)
             {

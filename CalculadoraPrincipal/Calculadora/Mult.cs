@@ -9,22 +9,23 @@ namespace Calculadora
 {
     class Mult:IMult
     {
-        public void mult(List<int> retorno)
+        public int mult(List<int> OpreationNumbers)
         {
             int result = 1;
 
-            foreach (var numb in retorno)
+            foreach (var numb in OpreationNumbers)
             {
                 result = result * numb;
             }
-            Console.WriteLine(result);
-            Console.WriteLine("Press enter to conitnue.");
-            Console.ReadLine();
+
+            return result;
         }
 
-        public void doOperation(List<int> retorno)
+        public int doOperation(List<int> OpreationNumbers)
         {
-            mult(retorno);
+            int result = mult(OpreationNumbers);
+
+            return result;
         }
 
     }

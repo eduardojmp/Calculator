@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface IAdd:IOperation
     {
-        void add(List<int> retorno);
+        int add(List<int> OpreationNumbers);
     }
 }

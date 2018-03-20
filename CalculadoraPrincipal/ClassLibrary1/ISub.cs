@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface ISub:IOperation
     {
-        void sub(List<int> retorno);
+        int sub(List<int> OpreationNumbers);
     }
 }

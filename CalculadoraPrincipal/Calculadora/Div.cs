@@ -9,35 +9,37 @@ namespace Calculadora
 {
     class Div:IDiv
     {
-        public void div(List<int> retorno)
+        public int div(List<int> OpreationNumbers)
         {
 
-            int result = retorno[0];
-            retorno.Remove(retorno[0]);
-
+            int result = OpreationNumbers[0];
+            OpreationNumbers.Remove(OpreationNumbers[0]);
 
             try
             {
-                foreach (var numb in retorno)
+                foreach (var numb in OpreationNumbers)
                 {
                     result = result / numb;
                 }
 
-                Console.WriteLine(result);
-                Console.WriteLine("Press enter to conitnue.");
-                Console.ReadLine();
             }
             catch (Exception ex)
             {
+                result = 0;
+
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("Try again");
                 Console.ReadLine();
             }
+
+            return result;
         }
 
-        public void doOperation(List<int> retorno)
+        public int doOperation(List<int> OpreationNumbers)
         {
-            div(retorno);
+            int result = div(OpreationNumbers);
+
+            return result;
         }
 
     }

@@ -9,23 +9,24 @@ namespace Calculadora
 {
     class Sub:ISub
     {
-        public void sub(List<int> retorno)
+        public int sub(List<int> OpreationNumbers)
         {
-            int result = retorno[0];
-            retorno.Remove(retorno[0]);
+            int result = OpreationNumbers[0];
+            OpreationNumbers.Remove(OpreationNumbers[0]);
 
-            foreach (var numb in retorno)
+            foreach (var numb in OpreationNumbers)
             {
                 result = result - numb;
             }
-            Console.WriteLine(result);
-            Console.WriteLine("Press enter to conitnue.");
-            Console.ReadLine();
+
+            return result;
         }
 
-        public void doOperation(List<int> retorno)
+        public int doOperation(List<int> OpreationNumbers)
         {
-            sub(retorno);
+            int result = sub(OpreationNumbers);
+
+            return result;
         }
 
     }

@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface IMult:IOperation
     {
-        void mult(List<int> retorno);
+        int mult(List<int> OpreationNumbers);
     }
 }

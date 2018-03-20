@@ -9,23 +9,23 @@ namespace Calculadora
 {
     class Add:IAdd
     {
-        public void add(List<int> retorno)
+        public int add(List<int> OpreationNumbers)
         {
-
             int result = 0;
 
-            foreach(var numb in retorno)
+            foreach(var numb in OpreationNumbers)
             {
                 result += numb;
             }
-            Console.WriteLine(result);
-            Console.WriteLine("Press enter to conitnue.");
-            Console.ReadLine();
+
+            return result;
         }
 
-        public void doOperation(List<int> retorno)
+        public int doOperation(List<int> OpreationNumbers)
         {
-            add(retorno);
+            int result = add(OpreationNumbers);
+
+            return result;
         }
     }
 }

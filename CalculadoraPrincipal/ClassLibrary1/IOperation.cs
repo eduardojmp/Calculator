@@ -8,6 +8,6 @@ namespace ClassLibrary1
 {
     public interface IOperation
     {
-        void doOperation(List<int> retorno);
+        int doOperation(List<int> OpreationNumbers);
     }
 }
