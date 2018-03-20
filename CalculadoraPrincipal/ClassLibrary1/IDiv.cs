@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public interface IDiv
+    public interface IDiv:IOperation
     {
         void div(List<int> retorno);
     }

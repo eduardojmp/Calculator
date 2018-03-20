@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public interface IAdd:IOperation
+    public interface IMenu
     {
-        void add(List<int> retorno);
+        void InitializeMainMenu();
+
+        int GetOperationFromMenu();
     }
 }

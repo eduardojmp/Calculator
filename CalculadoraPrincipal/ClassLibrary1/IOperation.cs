@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public interface IAdd:IOperation
+    public interface IOperation
     {
-        void add(List<int> retorno);
+        void doOperation(List<int> retorno);
     }
 }

@@ -9,76 +9,43 @@ namespace Calculadora
 {
     class Calculator:ICalculator
     {
-        Add AddOperation;
-        Sub SubOperation;
-        Mult MultOperation;
-        Div DivOperation;
+        private IList<IOperation> _operations;
+        private IMenu _menu;
         Numbers numeros;
 
-        public Calculator()
+        public Calculator(IList<IOperation> operations, IMenu menu)
         {
-            AddOperation = new Add();
-            SubOperation = new Sub();
-            MultOperation = new Mult();
-            DivOperation = new Div();
+            _operations = operations;
+            _menu = menu;
             numeros = new Numbers();
         }
+
+        public Calculator()
+            : this(new List<IOperation>() { new Add(), new Sub(), new Mult(), new Div(), }, new CalculatorMenu())
+        { }
+
         public void Start()
         {
             bool displayMenu = true;
             while (displayMenu)
             {
-                displayMenu = InitializeMainMenu();
+                _menu.InitializeMainMenu();
+
+                var operation = _menu.GetOperationFromMenu();
+
+                displayMenu = ProcessOperation(operation);
             }
         }
 
-        private bool InitializeMainMenu()
-        {
-            Console.Clear();
-            Console.WriteLine("Choose an option: ");
-            Console.WriteLine("1) +");
-            Console.WriteLine("2) -");
-            Console.WriteLine("3) *");
-            Console.WriteLine("4) /");
-            Console.WriteLine("5) Exit");
-
-            string OperationType = Console.ReadLine();
-
-            return ProcessOperation(OperationType);
-        }
-
-        private bool ProcessOperation(string OperationType)
+        private bool ProcessOperation(int OperationType)
         {
 
-            if (OperationType == "1")
+            if (OperationType <= _operations.Count)
             {
                 List<int> retorno = numeros.GetNumbers();
-                AddOperation.add(retorno);
-
-                return true;
+                _operations.ElementAt(OperationType - 1).doOperation(retorno);
             }
-            else if (OperationType == "2")
-            {
-                List<int> retorno = numeros.GetNumbers();
-                SubOperation.sub(retorno);
-
-                return true;
-            }
-            else if (OperationType == "3")
-            {
-                List<int> retorno = numeros.GetNumbers();
-                MultOperation.mult(retorno);
-
-                return true;
-            }
-            else if (OperationType == "4")
-            {
-                List<int> retorno = numeros.GetNumbers();
-                DivOperation.div(retorno);
-
-                return true;
-            }
-            else if (OperationType == "5")
+            else if (OperationType == _operations.Count + 1)
             {
                 return false;
             }
@@ -86,8 +53,9 @@ namespace Calculadora
             {
                 Console.WriteLine("Invalid! Try again!");
                 Console.ReadLine();
-                return true;
             }
+
+            return true;
         }
     }
 }

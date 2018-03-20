@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public interface IMult
+    public interface IMult:IOperation
     {
         void mult(List<int> retorno);
     }

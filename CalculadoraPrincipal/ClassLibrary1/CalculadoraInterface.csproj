@@ -43,8 +43,10 @@
     <Compile Include="IAdd.cs" />
     <Compile Include="ICalculator.cs" />
     <Compile Include="IDiv.cs" />
+    <Compile Include="IMenu.cs" />
     <Compile Include="IMult.cs" />
     <Compile Include="INumbers.cs" />
+    <Compile Include="IOperation.cs" />
     <Compile Include="ISub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

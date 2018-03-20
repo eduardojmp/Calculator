@@ -22,5 +22,10 @@ namespace Calculadora
             Console.WriteLine("Press enter to conitnue.");
             Console.ReadLine();
         }
+
+        public void doOperation(List<int> retorno)
+        {
+            add(retorno);
+        }
     }
 }

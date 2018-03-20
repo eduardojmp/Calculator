@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public interface ISub
+    public interface ISub:IOperation
     {
         void sub(List<int> retorno);
     }

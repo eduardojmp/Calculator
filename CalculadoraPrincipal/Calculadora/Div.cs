@@ -34,5 +34,11 @@ namespace Calculadora
                 Console.ReadLine();
             }
         }
+
+        public void doOperation(List<int> retorno)
+        {
+            div(retorno);
+        }
+
     }
 }
