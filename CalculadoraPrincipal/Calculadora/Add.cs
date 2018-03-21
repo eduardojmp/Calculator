@@ -23,9 +23,7 @@ namespace Calculadora
 
         public int doOperation(List<int> OpreationNumbers)
         {
-            int result = add(OpreationNumbers);
-
-            return result;
+            return add(OpreationNumbers);
         }
     }
 }

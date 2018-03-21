@@ -15,3 +15,9 @@ C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj
 C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\ClassLibrary1.dll
 C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\ClassLibrary1.pdb
 C:\Users\research\Desktop\GitRep\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.csproj.CopyComplete
+C:\Users\ruben.borralho\Desktop\Git2\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\ClassLibrary1.dll
+C:\Users\ruben.borralho\Desktop\Git2\Calculator\CalculadoraPrincipal\Calculadora\bin\Debug\ClassLibrary1.pdb
+C:\Users\ruben.borralho\Desktop\Git2\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\ruben.borralho\Desktop\Git2\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\ruben.borralho\Desktop\Git2\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\ruben.borralho\Desktop\Git2\Calculator\CalculadoraPrincipal\Calculadora\obj\Debug\Calculadora.pdb

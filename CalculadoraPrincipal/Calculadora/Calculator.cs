@@ -11,17 +11,17 @@ namespace Calculadora
     {
         private IList<IOperation> _operations;
         private IMenu _menu;
-        Numbers numeros;
+        private INumbers _numbers;
 
-        public Calculator(IList<IOperation> operations, IMenu menu)
+        public Calculator(IList<IOperation> operations, IMenu menu, INumbers numbers)
         {
             _operations = operations;
             _menu = menu;
-            numeros = new Numbers();
+            _numbers = numbers;
         }
 
         public Calculator()
-            : this(new List<IOperation>() { new Add(), new Sub(), new Mult(), new Div(), }, new CalculatorMenu())
+            : this(new List<IOperation>() { new Add(), new Sub(), new Mult(), new Div(), },  new CalculatorMenu(), new Numbers())
         { }
 
         public void Start()
@@ -42,7 +42,7 @@ namespace Calculadora
 
             if (OperationType <= _operations.Count)
             {
-                List<int> OpreationNumbers = numeros.GetNumbers();
+                List<int> OpreationNumbers = _numbers.GetNumbers();
 
                 int final_result = _operations.ElementAt(OperationType - 1).doOperation(OpreationNumbers);
 
